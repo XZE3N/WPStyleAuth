@@ -25,8 +25,6 @@
 
 ## Screenshots
 
-### Login UI
-This screenshot showcases the **login form** with a clean, geometric design. The page features an overlayed yellow and green trapezium background, with input fields for the username and password, along with a "Forgot Password" link.
 <p align="center">
   <img src="https://i.imgur.com/0WQ5nKQ.png" alt="Login Form" />
 </p>
