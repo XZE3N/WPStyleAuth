@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css\style.css?">
+    <script src="https://kit.fontawesome.com/f8efb70290.js" crossorigin="anonymous"></script>
+    <script src="js\main.js"></script>
+</head>
+<body>
+    <div id="login">
+        <h1><img src="img/picture.png"></h1>
+        <form method="post" action="index.html" autocomplete="off">
+            <label for="username">Username</label>
+            <div id="user">
+                <input type="text" name="username" id="username">
+                <div class="icon-wrap"><i class="fas fa-user"></i></div>
+            </div>
+            <label for="password">Password</label>
+            <div id="pass">
+                <input type="password" name="password" id="password">
+                <button type="button" onclick="clickEvent();"><i class="fas fa-eye" id="icon"></i></button>
+            </div>
+            <input type="submit" name="submit" value="Log In">
+        </form>
+        <p><a href="#">Don't have an account?</a></p>
+        <p><a href="#">← Go back to site</a></p>    
+    </div>
+</body>
+</html>
